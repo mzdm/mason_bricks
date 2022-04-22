@@ -1,5 +1,6 @@
 name: pom_class
 description: A template for quickly generating consistent Page Object Model (POM) classes for integration tests.
+repository: https://github.com/mzdm/mason_bricks/tree/master/bricks/pom_class
 version: 0.0.1
 
 environment:
