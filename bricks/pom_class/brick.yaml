@@ -1,0 +1,28 @@
+name: pom_class
+description: A template for quickly generating consistent Page Object Model (POM) classes for integration tests.
+version: 0.0.1
+
+environment:
+  mason: ">=0.1.0-dev <0.1.0"
+
+vars:
+  screenName:
+    type: string
+    default: login
+    prompt: Screen class name (e.g. for "LoginScreen" type "Login")
+  hasButton:
+    type: boolean
+    default: true
+    prompt: Does the screen have a button?
+  hasBackButton:
+    type: boolean
+    default: false
+    prompt: Does the screen have a Back button?
+  hasTextField:
+    type: boolean
+    default: false
+    prompt: Does the screen have a TextField?
+  addLogs:
+    type: boolean
+    default: true
+    prompt: Add logging method to action methods?
